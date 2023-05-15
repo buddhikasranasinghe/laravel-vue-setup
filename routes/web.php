@@ -19,6 +19,13 @@ Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 
+Route::prefix('api')->group(function () {
+    Route::resource('/pharmacy', 'PharmacyController');
+    Route::resource('/products', 'ProductsController');
+    Route::resource('/users', 'UserController');
+    Route::post('/upload-file', 'FileUploadController@uploadFile');
+});
+
 Route::get('{any}', function () {
     return view('home');
 })->where('any','.*');

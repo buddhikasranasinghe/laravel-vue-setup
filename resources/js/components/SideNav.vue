@@ -70,22 +70,16 @@
                 </div>
                 <ul aria-orientation="vertical" class="rounded py-8">
                     <li class="cursor-pointer text-indigo-700 text-sm leading-3 tracking-normal py-2 hover:text-indigo-700 focus:text-indigo-700 focus:outline-none">
-                        <span class="ml-2">Dashboard</span>
+                        <router-link to="/home" class="ml-2">Dashboard</router-link>
                     </li>
                     <li class="cursor-pointer text-gray-600 text-sm leading-3 tracking-normal mt-6 py-2 hover:text-indigo-700 focus:text-indigo-700 focus:outline-none flex items-center">
-                        <span class="ml-2">Products</span>
+                        <router-link to="/products" class="ml-2">Products</router-link>
                     </li>
-                    <li class="cursor-pointer text-gray-600 text-sm leading-3 tracking-normal mt-6 py-2 hover:text-indigo-700 flex items-center focus:text-indigo-700 focus:outline-none">
-                        <span class="ml-2">Performance</span>
+                    <li class="cursor-pointer text-gray-600 text-sm leading-3 tracking-normal mt-6 py-2 hover:text-indigo-700 focus:text-indigo-700 focus:outline-none flex items-center">
+                        <router-link to="/pharmacy" class="ml-2">Pharmacy</router-link>
                     </li>
-                    <li class="cursor-pointer text-gray-600 text-sm leading-3 tracking-normal mt-6 py-2 hover:text-indigo-700 flex items-center focus:text-indigo-700 focus:outline-none">
-                        <span class="ml-2">Deliverables</span>
-                    </li>
-                    <li class="cursor-pointer text-gray-600 text-sm leading-3 tracking-normal mt-6 py-2 hover:text-indigo-700 flex items-center focus:text-indigo-700 focus:outline-none">
-                        <span class="ml-2">Home</span>
-                    </li>
-                    <li class="cursor-pointer text-gray-600 text-sm leading-3 tracking-normal mt-6 py-2 hover:text-indigo-700 flex items-center focus:text-indigo-700 focus:outline-none">
-                        <router-link class="ml-2" to="/category">Category</router-link>
+                    <li class="cursor-pointer text-gray-600 text-sm leading-3 tracking-normal mt-6 py-2 hover:text-indigo-700 focus:text-indigo-700 focus:outline-none flex items-center">
+                        <router-link to="/users" class="ml-2">Users</router-link>
                     </li>
                 </ul>
             </div>

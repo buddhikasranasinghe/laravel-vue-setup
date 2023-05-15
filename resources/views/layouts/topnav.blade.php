@@ -7,7 +7,7 @@
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>{{ config('app.name', 'Laravel') }}</title>
+    <title>Pharmacy</title>
 
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}" defer></script>
@@ -17,8 +17,9 @@
     <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
 
     <!-- Styles -->
-    {{-- <link href="{{ asset('css/app.css') }}" rel="stylesheet"> --}}
+    <link href="{{ asset('css/app.css') }}" rel="stylesheet">
     <script src="https://cdn.tailwindcss.com"></script>
+
     {{-- fontawesome cdn --}}
     <script src="https://use.fontawesome.com/24779611f3.js"></script>
 
@@ -148,8 +149,7 @@
                     </div>
                 </nav>
                 <!-- Navigation ends -->
-                <!-- Remove class [ h-64 ] when adding a card block -->
-                <div class="container pl-8 ml-8 md:mx-auto py-10 md:w-4/5 w-11/12 px-6">
+                <div class="container pl-8 ml-8 md:mx-auto px-6">
                     <div class="w-full h-full">
                         @yield('content')
                     </div>

@@ -1,7 +1,10 @@
-import Dashboard from './views/UserDashboard.vue'
+import Dashboard from './views/Dashboard.vue'
 import About from './views/AboutUs.vue'
 import ContactUs from './views/ContactUs.vue'
 import Category from './views/Category.vue'
+import Products from './views/Products.vue'
+import Pharmacy from './views/Pharmacy.vue'
+import Users from './views/Users.vue'
 
 export const routes = [
     {
@@ -10,18 +13,18 @@ export const routes = [
         name: 'dashboard'
     },
     {
-		path: '/about',
-        component: About,
-        name: 'about'
+        path: '/products',
+        component: Products,
+        name: 'products',
     },
     {
-		path: '/contact',
-        component: ContactUs,
-        name: 'contact'
+        path: '/pharmacy',
+        component: Pharmacy,
+        name: 'pharmacy',
     },
     {
-		path: '/category',
-        component: Category,
-        name: 'maincategory'
+        path: '/users',
+        component: Users,
+        name: 'users',
     },
 ];
