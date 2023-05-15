@@ -79,7 +79,7 @@
                         <router-link to="/pharmacy" class="ml-2">Pharmacy</router-link>
                     </li>
                     <li class="cursor-pointer text-gray-600 text-sm leading-3 tracking-normal mt-6 py-2 hover:text-indigo-700 focus:text-indigo-700 focus:outline-none flex items-center">
-                        <router-link to="/users" class="ml-2">Users</router-link>
+                        <router-link to="/users" class="ml-2">user</router-link>
                     </li>
                 </ul>
             </div>

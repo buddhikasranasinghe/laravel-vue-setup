@@ -40463,7 +40463,7 @@ var render = function () {
                     _c(
                       "router-link",
                       { staticClass: "ml-2", attrs: { to: "/users" } },
-                      [_vm._v("Users")]
+                      [_vm._v("user")]
                     ),
                   ],
                   1
